@@ -1,0 +1,98 @@
+/* Add application styles & imports to this file! */
+/* Skeleton Style & Animation */
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+.skeleton-icon {
+  width: 50px;
+  height: 45px;
+  border: none !important;
+  border-radius: 2rem;
+  margin: 5px;
+}
+
+.skeleton-banner {
+  width: 100%;
+  height: 248px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.skeleton-text {
+  width: 100%;
+  height: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.skeleton-text__body {
+  width: 75%;
+}
+
+.skeleton-footer {
+  width: 30%;
+}
+
+/* Skeleton style : mobile */
+@media only screen and (max-width: 768px) {
+  .skeleton-banner {
+    height: 110px;
+  }
+}
+
+.skeleton-content {
+  margin: 20px;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.h-20 {
+  height: 20px !important;
+}
+.h-40 {
+  height: 40px !important;
+}
+.h-60 {
+  height: 60px !important;
+}
+.h-80 {
+  height: 80px !important;
+}
+.h-100 {
+  height: 100px !important;
+}
+
+/* Padding */
+.pt-20 {
+  padding-top: 20px;
+}
+.mb-1rem {
+  margin-bottom: 1rem;
+}
+.ml-05rem {
+  margin-left: 0.5rem;
+}

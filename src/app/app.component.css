@@ -1,0 +1,38 @@
+/* Card */
+.card {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slider-icon-group {
+  display: flex;
+  width: 100%;
+}
+
+/* Custom style icon slider : desktop */
+.slider-icon {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.slider-icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+/* Custom style icon slider : mobile */
+@media only screen and (max-width: 768px) {
+  .slider-icon {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+}
